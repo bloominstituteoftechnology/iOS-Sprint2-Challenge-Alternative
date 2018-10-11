@@ -12,7 +12,7 @@ Good luck and believe in yourself.
 
 ## Student records
 
-Create two new types in separate files: `Student` and `StudentManager`. These types should both be classes, even though you used a `Student` struct yesterday. 
+Create two new types in separate files: `Student` and `StudentManager`. These types should both be classes, even though you used a `Student` struct yesterday.  Also every property in `Student` should now be a `var` and not `let`.
 
 As you did yesterday, conform `Student` to `CustomStringConvertible` and `Codable`. Implement `description` as you did, to create a human-readable description of the student record.
 
