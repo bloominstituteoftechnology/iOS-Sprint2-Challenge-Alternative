@@ -79,7 +79,7 @@ Add the following outlets and actions:
 
 Add a second view controller to IB. Set its type to `StudentViewController`. Embed it in a navigation controller.
 
-Add a bar button item to your main controller. Set it to the system Add style. Have it present the student view controller modally. Name the segue as `addNewRecord`.
+Add a bar button item to your main controller. Set it to the system Add style. Have it present the student navigation controller modally. Name the segue as `addNewRecord`.
 
 Connect the prototype cell to your view controller to present it modally. Name the segue `editRecord`.
 
